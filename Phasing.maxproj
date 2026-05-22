@@ -2,13 +2,27 @@
     "name": "Phasing",
     "version": 1,
     "creationdate": 3862267671,
-    "modificationdate": 3862267671,
+    "modificationdate": 3862270213,
     "viewrect": [ 24.0, 102.0, 300.0, 500.0 ],
     "autoorganize": 1,
     "hideprojectwindow": 0,
     "showdependencies": 1,
     "autolocalize": 0,
-    "contents": {    },
+    "contents": {
+        "patchers": {
+            "Phasing.maxpat": {
+                "kind": "patcher",
+                "local": 1,
+                "toplevel": 1
+            }
+        },
+        "code": {
+            "SequencerUI.js": {
+                "kind": "javascript",
+                "local": 1
+            }
+        }
+    },
     "layout": {    },
     "searchpath": {    },
     "detailsvisible": 0,
